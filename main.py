@@ -12,7 +12,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8452278318:AAHyj8b7IkXF0XCKf3V78rLAGKQPEhGoVIQ")
 REQUIRED_CHANNEL = os.getenv("REQUIRED_CHANNEL")
 REQUIRED_CHANNEL_URL = os.getenv("REQUIRED_CHANNEL_URL")
 
@@ -180,4 +180,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
